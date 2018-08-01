@@ -19,5 +19,14 @@
 # ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 # OTHER DEALINGS IN THE SOFTWARE.
 
-docker run -it --device /dev/dri:/dev/dri --rm intel-opencl:ubuntu-16.04-ppa clinfo
+. ./versions
+
+if [ -n  "$1" ]
+then
+    docker run -it --device /dev/dri:/dev/dri --rm intel-opencl:$1 clinfo
+else
+    echo "run ./test.sh version"
+    echo "where version is one from:"
+    show_versions
+fi
 

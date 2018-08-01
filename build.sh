@@ -19,8 +19,18 @@
 # ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 # OTHER DEALINGS IN THE SOFTWARE.
 
-docker build -f Dockerfile-ubuntu-16.04-ppa -t intel-opencl:ubuntu-16.04-ppa .
-docker images
-docker tag intel-opencl:ubuntu-16.04-ppa intelopencl/intel-opencl:ubuntu-16.04-ppa
-docker push intelopencl/intel-opencl:ubuntu-16.04-ppa
+set -e
 
+. ./versions
+
+if [ -n  "$1" ]
+then
+    docker build -f Dockerfile-$1 -t intel-opencl:$1 .
+    docker images
+    docker tag intel-opencl:$1 intelopencl/intel-opencl:$1
+    docker push intelopencl/intel-opencl:$1
+else
+    echo "run ./build.sh version"
+    echo "where version is one from:"
+    show_versions
+fi
