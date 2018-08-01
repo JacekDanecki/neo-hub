@@ -21,4 +21,5 @@
 
 docker build -f Dockerfile-ubuntu-16.04-ppa -t intel-opencl:ubuntu-16.04-ppa .
 docker images
+docker push intelopencl/intel-opencl:ubuntu-16.04-ppa
 
