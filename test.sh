@@ -23,7 +23,7 @@
 
 if [ -n  "$1" ]
 then
-    docker run -it --device /dev/dri:/dev/dri --rm intel-opencl:$1 clinfo
+    docker run -it --device /dev/dri:/dev/dri --rm docker.io/intelopencl/intel-opencl:$1 clinfo
 else
     echo "run ./test.sh version"
     echo "where version is one from:"
