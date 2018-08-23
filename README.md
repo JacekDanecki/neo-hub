@@ -1,4 +1,4 @@
-# Releases used to build images
+# Releases used to build docker images
 
 ## Docker hub repository info
 
@@ -11,16 +11,16 @@ docker pull intelopencl/intel-opencl
 ## Packages for Ubuntu 16.04
 
 ```
-intel-opencl - 18.32.11249-1~ppa1~xenial1
-intel-igc - 18.30.707-2~ppa1~xenial1
+intel-opencl - 18.33.11309-1~ppa1~xenial1
+intel-igc - 18.32.782.2-2~ppa1~xenial1
 intel-opencl-clang - 4.0.15-1~ppa1~xenial1
 ```
 
 ## Packages for Ubuntu 18.04
 
 ```
-intel-opencl - 18.32.11249-1~ppa1~bionic1
-intel-igc - 18.30.707-2~ppa1~bionic1
+intel-opencl - 18.33.11309-1~ppa1~bionic1
+intel-igc - 18.32.782.2-1~ppa1~bionic1
 intel-opencl-clang - 4.0.15-1~ppa1~bionic1
 ```
 
