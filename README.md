@@ -24,3 +24,21 @@ intel-igc - 18.32.782.2-1~ppa1~bionic1
 intel-opencl-clang - 4.0.15-1~ppa1~bionic1
 ```
 
+## Packages for Fedora 27
+
+```
+intel-opencl - 18.33.11309-3
+intel-igc-opencl - 18.32.782-3
+intel-igc-core - 18.32.782-3
+intel-opencl-clang - 4.0.15-1
+```
+
+## Packages for Fedora 28
+
+```
+intel-opencl - 18.33.11309-3
+intel-igc-opencl - 18.32.782-3
+intel-igc-core - 18.32.782-3
+intel-opencl-clang - 4.0.15-1
+```
+
