@@ -3,4 +3,5 @@ show_versions() {
     echo "ubuntu-18.04-ppa"
     echo "fedora-27-copr"
     echo "fedora-28-copr"
+    echo "arch-ppa"
 }

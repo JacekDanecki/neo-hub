@@ -24,6 +24,14 @@ intel-igc - 18.32.782.2-1~ppa1~bionic1
 intel-opencl-clang - 4.0.15-1~ppa1~bionic1
 ```
 
+## Packages for Arch
+
+```
+intel-opencl - 18.33.11309-1~ppa1~bionic1
+intel-igc - 18.32.782.2-1~ppa1~bionic1
+intel-opencl-clang - 4.0.15-1~ppa1~bionic1
+```
+
 ## Packages for Fedora 27
 
 ```
