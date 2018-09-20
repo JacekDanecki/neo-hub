@@ -1,8 +1,8 @@
 FROM fedora:27
 MAINTAINER Jacek Danecki <jacek.danecki@intel.com>
 
-RUN dnf install -y 'dnf-command(copr)'; \
-    dnf copr enable -y arturh/intel-opencl-unstable; \
-    dnf copr enable -y arturh/intel-opencl; \
-    dnf install -y intel-opencl clinfo --setopt=install_weak_deps=False; dnf clean all
+RUN dnf install -y 'dnf-command(copr)' && \
+    dnf copr enable -y arturh/intel-opencl-unstable && \
+    dnf copr enable -y arturh/intel-opencl && \
+    dnf install -y intel-opencl clinfo --setopt=install_weak_deps=False && dnf clean all
 CMD ["/bin/bash"]
