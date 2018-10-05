@@ -1,50 +1,21 @@
-# Releases used to build docker images
+This repository is used to create docker images containing Intel [compute-runtime](https://github.com/intel/compute-runtime)
 
 ## Docker hub repository info
 
 * https://hub.docker.com/r/intelopencl/intel-opencl
 
-```
-docker pull intelopencl/intel-opencl
-```
+# Packages used to build docker images
 
-## Packages for Ubuntu 16.04
+OS | intel-opencl | intel-igc | intel-opencl-clang
+-- | ------------ | ----------| ------------------ |
+Ubuntu 16.04 | 18.39.11595-1\~ppa1\~xenial1 | 18.38.907-1\~ppa1\~xenial1 | 4.0.16-1\~ppa1\~xenial1 |
+Ubuntu 18.04 | 18.39.11595-1\~ppa1\~bionic1 | 18.38.907-1\~ppa1\~bionic1 | 4.0.16-1\~ppa1\~bionic1 |
+Arch | 18.39.11595-1\~ppa1\~bionic1 | 18.38.907-1\~ppa1\~bionic1 | 4.0.16-1\~ppa1\~bionic1 |
+Fedora 27 | 18.39.11595-3 | 18.38.907-3 | 4.0.16-1 |
+Fedora 28 | 18.39.11595-3 | 18.38.907-3 | 4.0.16-1 |
 
-```
-intel-opencl - 18.38.11535-1~ppa1~xenial1
-intel-igc - 18.35.849-1~ppa1~xenial1
-intel-opencl-clang - 4.0.16-1~ppa1~xenial1
-```
+# Repository used for builds
 
-## Packages for Ubuntu 18.04
-
-```
-intel-opencl - 18.38.11535-1~ppa1~bionic1
-intel-igc - 18.35.849-1~ppa1~bionic1
-intel-opencl-clang - 4.0.16-1~ppa1~bionic1
-```
-
-## Packages for Arch
-
-```
-intel-opencl - 18.38.11535-1~ppa1~bionic1
-intel-igc - 18.35.849-1~ppa1~bionic1
-intel-opencl-clang - 4.0.16-1~ppa1~bionic1
-```
-
-## Packages for Fedora 27
-
-```
-intel-opencl - 18.38.11535-3
-intel-igc - 18.35.849-3
-intel-opencl-clang - 4.0.16-1
-```
-
-## Packages for Fedora 28
-
-```
-intel-opencl - 18.38.11535-3
-intel-igc - 18.35.849-3
-intel-opencl-clang - 4.0.16-1
-```
+* For Fedora builds [copr/\~arturh](https://copr.fedorainfracloud.org/coprs/arturh/intel-opencl) repostiory is used.
+* For Ubuntu and Arch [launchpad/\~intel-opencl](https://launchpad.net/~intel-opencl/+archive/ubuntu/intel-opencl) repository is used.
 
