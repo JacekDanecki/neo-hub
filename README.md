@@ -8,11 +8,11 @@ This repository is used to create docker images containing Intel [compute-runtim
 
 OS | intel-opencl | intel-igc | intel-opencl-clang
 -- | ------------ | ----------| ------------------ |
-Ubuntu 16.04 | 18.39.11595-1\~ppa1\~xenial1 | 18.38.907-1\~ppa1\~xenial1 | 4.0.16-1\~ppa1\~xenial1 |
-Ubuntu 18.04 | 18.39.11595-1\~ppa1\~bionic1 | 18.38.907-1\~ppa1\~bionic1 | 4.0.16-1\~ppa1\~bionic1 |
-Arch | 18.39.11595-1\~ppa1\~bionic1 | 18.38.907-1\~ppa1\~bionic1 | 4.0.16-1\~ppa1\~bionic1 |
-Fedora 27 | 18.39.11595-3 | 18.38.907-3 | 4.0.16-1 |
-Fedora 28 | 18.39.11595-3 | 18.38.907-3 | 4.0.16-1 |
+Ubuntu 16.04 | 18.40.11622-1\~ppa1\~xenial1 | 18.38.907-1\~ppa1\~xenial1 | 4.0.16-1\~ppa1\~xenial1 |
+Ubuntu 18.04 | 18.40.11622-1\~ppa1\~bionic1 | 18.38.907-1\~ppa1\~bionic1 | 4.0.16-1\~ppa1\~bionic1 |
+Arch | 18.40.11622-1\~ppa1\~bionic1 | 18.38.907-1\~ppa1\~bionic1 | 4.0.16-1\~ppa1\~bionic1 |
+Fedora 27 | 18.40.11622-3 | 18.38.907-3 | 4.0.16-1 |
+Fedora 28 | 18.40.11622-3 | 18.38.907-3 | 4.0.16-1 |
 
 # Repository used for builds
 
