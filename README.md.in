@@ -8,10 +8,10 @@ This repository is used to create docker images containing Intel [compute-runtim
 
 OS | intel-opencl | intel-igc | intel-opencl-clang | gmmlib
 -- | ------------ | ----------| ------------------ | ------ |
-Ubuntu 16.04 | 18.45.11804-1\~ppa1\~xenial1 | 18.44.1060-1\~ppa1\~xenial1 | 4.0.16-1\~ppa1\~xenial1 | 18.4.348-1\~ppa1\~xenial1 |
-Ubuntu 18.04 | 18.45.11804-1\~ppa1\~bionic1 | 18.44.1060-1\~ppa1\~bionic1 | 4.0.16-1\~ppa1\~bionic1 | 18.4.348-1\~ppa1\~bionic1 |
-Fedora 28 | 18.45.11804-3 | 18.44.1060-3 | 4.0.16-1 | 18.4.348-3 |
-Fedora 29 | 18.45.11804-3 | 18.44.1060-3 | 4.0.16-1 | 18.4.348-3 |
+Ubuntu 16.04 | NEO_BUILD-1\~ppa1\~xenial1 | IGC_BUILD-1\~ppa1\~xenial1 | CCLANG_BUILD-1\~ppa1\~xenial1 | GMM_BUILD-1\~ppa1\~xenial1 |
+Ubuntu 18.04 | NEO_BUILD-1\~ppa1\~bionic1 | IGC_BUILD-1\~ppa1\~bionic1 | CCLANG_BUILD-1\~ppa1\~bionic1 | GMM_BUILD-1\~ppa1\~bionic1 |
+Fedora 28 | NEO_BUILD-3 | IGC_BUILD-3 | CCLANG_BUILD-1 | GMM_BUILD-3 |
+Fedora 29 | NEO_BUILD-3 | IGC_BUILD-3 | CCLANG_BUILD-1 | GMM_BUILD-3 |
 
 # Repository used for builds
 
@@ -22,5 +22,5 @@ Fedora 29 | 18.45.11804-3 | 18.44.1060-3 | 4.0.16-1 | 18.4.348-3 |
 
 OS | intel-opencl | intel-igc | intel-opencl-clang | gmmlib
 -- | ------------ | ----------| ------------------ | ------ |
-Arch | 18.45.11804-1\~ppa1\~bionic1 | 18.44.1060-1\~ppa1\~bionic1 | 4.0.16-1\~ppa1\~bionic1 | 18.4.348-1\~ppa1\~bionic1 |
+Arch | NEO_BUILD-1\~ppa1\~bionic1 | IGC_BUILD-1\~ppa1\~bionic1 | CCLANG_BUILD-1\~ppa1\~bionic1 | GMM_BUILD-1\~ppa1\~bionic1 |
 
