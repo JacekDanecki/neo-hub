@@ -3,6 +3,5 @@ show_versions() {
     echo "ubuntu-18.04-ppa"
     echo "fedora-28-copr"
     echo "fedora-29-copr"    
-# temporary disabled
-#    echo "arch-ppa"
+    echo "arch-ppa"
 }

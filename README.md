@@ -12,15 +12,12 @@ Ubuntu 16.04 | 18.45.11804-1\~ppa1\~xenial1 | 18.44.1060-1\~ppa1\~xenial1 | 4.0.
 Ubuntu 18.04 | 18.45.11804-1\~ppa1\~bionic1 | 18.44.1060-1\~ppa1\~bionic1 | 4.0.16-1\~ppa1\~bionic1 | 18.4.348-1\~ppa1\~bionic1 |
 Fedora 28 | 18.45.11804-3 | 18.44.1060-3 | 4.0.16-1 | 18.4.348-3 |
 Fedora 29 | 18.45.11804-3 | 18.44.1060-3 | 4.0.16-1 | 18.4.348-3 |
+Arch | 18.45.11804-1\~ppa1\~bionic1 | 18.44.1060-1\~ppa1\~bionic1 | 4.0.16-1\~ppa1\~bionic1 | 18.4.348-1\~ppa1\~bionic1 |
 
 # Repository used for builds
 
 * For Fedora builds [copr/\~arturh](https://copr.fedorainfracloud.org/coprs/arturh/intel-opencl) repostiory is used.
 * For Ubuntu and Arch [launchpad/\~intel-opencl](https://launchpad.net/~intel-opencl/+archive/ubuntu/intel-opencl) repository is used.
 
-# Temporary disabled builds
 
-OS | intel-opencl | intel-igc | intel-opencl-clang | gmmlib
--- | ------------ | ----------| ------------------ | ------ |
-Arch | 18.45.11804-1\~ppa1\~bionic1 | 18.44.1060-1\~ppa1\~bionic1 | 4.0.16-1\~ppa1\~bionic1 | 18.4.348-1\~ppa1\~bionic1 |
 

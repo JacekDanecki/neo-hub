@@ -39,7 +39,7 @@ download_packages() {
 }
 
 install_packages() {
-    mv -v usr/lib/x86_64-linux-gnu/*.so /usr/lib64
+    mv -v usr/lib/x86_64-linux-gnu/* /usr/lib64
     mkdir -p /etc/OpenCL/vendors
     echo "libigdrcl.so" > /etc/OpenCL/vendors/intel.icd
 }

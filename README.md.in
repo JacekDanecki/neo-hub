@@ -12,15 +12,12 @@ Ubuntu 16.04 | NEO_BUILD-1\~ppa1\~xenial1 | IGC_BUILD-1\~ppa1\~xenial1 | CCLANG_
 Ubuntu 18.04 | NEO_BUILD-1\~ppa1\~bionic1 | IGC_BUILD-1\~ppa1\~bionic1 | CCLANG_BUILD-1\~ppa1\~bionic1 | GMM_BUILD-1\~ppa1\~bionic1 |
 Fedora 28 | NEO_BUILD-3 | IGC_BUILD-3 | CCLANG_BUILD-1 | GMM_BUILD-3 |
 Fedora 29 | NEO_BUILD-3 | IGC_BUILD-3 | CCLANG_BUILD-1 | GMM_BUILD-3 |
+Arch | NEO_BUILD-1\~ppa1\~bionic1 | IGC_BUILD-1\~ppa1\~bionic1 | CCLANG_BUILD-1\~ppa1\~bionic1 | GMM_BUILD-1\~ppa1\~bionic1 |
 
 # Repository used for builds
 
 * For Fedora builds [copr/\~arturh](https://copr.fedorainfracloud.org/coprs/arturh/intel-opencl) repostiory is used.
 * For Ubuntu and Arch [launchpad/\~intel-opencl](https://launchpad.net/~intel-opencl/+archive/ubuntu/intel-opencl) repository is used.
 
-# Temporary disabled builds
 
-OS | intel-opencl | intel-igc | intel-opencl-clang | gmmlib
--- | ------------ | ----------| ------------------ | ------ |
-Arch | NEO_BUILD-1\~ppa1\~bionic1 | IGC_BUILD-1\~ppa1\~bionic1 | CCLANG_BUILD-1\~ppa1\~bionic1 | GMM_BUILD-1\~ppa1\~bionic1 |
 
