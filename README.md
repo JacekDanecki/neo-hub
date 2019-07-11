@@ -8,8 +8,8 @@ This repository is used to create docker images containing Intel [compute-runtim
 
 OS | intel-opencl | intel-igc | intel-opencl-clang | gmmlib
 -- | ------------ | ----------| ------------------ | ------ |
-Ubuntu 18.04 | 19.25.13237-1\~ppa1\~bionic1 | 21.0.2190-1\~ppa1\~bionic1 | 28.0.72-1\~ppa1\~bionic1  | 19.2.1-1\~ppa1\~bionic1 |
-Ubuntu 16.04 | 19.25.13237-1\~ppa1\~xenial1 | 31.0.2190-1\~ppa1\~xenial1 |  8.0.72-1\~ppa1\~xenial1  | 19.2.1-1\~ppa1\~xenial1 |
+Ubuntu 18.04 | 19.26.13286-1\~ppa1\~bionic1 | 21.0.2211-1\~ppa1\~bionic1 | 28.0.72-1\~ppa1\~bionic1  | 19.2.1-1\~ppa1\~bionic1 |
+Ubuntu 16.04 | 19.26.13286-1\~ppa1\~xenial1 | 31.0.2211-1\~ppa1\~xenial1 |  8.0.72-1\~ppa1\~xenial1  | 19.2.1-1\~ppa1\~xenial1 |
 Fedora 28 | 18.45.11804-3 | 18.44.1060-3 | 4.0.16-1 | 18.4.348-3 |
 Fedora 29 | 18.45.11804-3 | 18.44.1060-3 | 4.0.16-1 | 18.4.348-3 |
 Arch | 18.45.11804-1\~ppa1\~bionic1 | 18.44.1060-1\~ppa1\~bionic1 | 4.0.16-1\~ppa1\~bionic1 | 18.4.348-1\~ppa1\~bionic1 |
