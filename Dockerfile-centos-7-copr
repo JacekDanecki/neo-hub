@@ -1,0 +1,8 @@
+FROM centos:7
+MAINTAINER Jacek Danecki <jacek.danecki@intel.com>
+
+RUN yum install -y 'yum-plugin-copr' && \
+    yum install -y epel-release  && \
+    yum copr enable -y jdanecki/intel-opencl && \
+    yum install -y intel-opencl clinfo --setopt=install_weak_deps=False && yum clean all
+CMD ["/bin/bash"]
