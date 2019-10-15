@@ -1,4 +1,4 @@
-FROM docker.io/ubuntu:18.04
+FROM docker.io/ubuntu:19.04
 MAINTAINER Jacek Danecki <jacek.danecki@intel.com>
 
 RUN apt-get -y update ; apt-get install -y --allow-unauthenticated gpg; \
