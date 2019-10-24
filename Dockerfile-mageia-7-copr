@@ -1,0 +1,7 @@
+FROM mageia:7
+MAINTAINER Jacek Danecki <jacek.danecki@intel.com>
+
+RUN dnf install -y 'dnf-command(copr)' && \
+    dnf copr enable -y jdanecki/intel-opencl && \
+    dnf install -y intel-opencl --setopt=install_weak_deps=False && dnf clean all
+CMD ["/bin/bash"]

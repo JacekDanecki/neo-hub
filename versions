@@ -5,4 +5,8 @@ show_versions() {
     echo "fedora-30-copr"
     echo "fedora-31-copr"
     echo "centos-7-copr"
+    echo "centos-8-copr"
+    echo "mageia-7-copr"
+    echo "opensuse-15.1-copr"
+    echo "opensuse-tumbleweed-copr"
 }

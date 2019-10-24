@@ -1,0 +1,6 @@
+FROM opensuse/tumbleweed:latest
+MAINTAINER Jacek Danecki <jacek.danecki@intel.com>
+
+RUN zypper addrepo -r https://copr.fedorainfracloud.org/coprs/jdanecki/intel-opencl/repo/opensuse-tumbleweed/jdanecki-intel-opencl-opensuse-tumbleweed.repo && \
+    zypper --no-gpg-checks  install -y  intel-opencl clinfo clpeak
+CMD ["/bin/bash"]

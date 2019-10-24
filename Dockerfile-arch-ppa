@@ -1,7 +1,0 @@
-FROM docker.io/base/archlinux
-MAINTAINER Jacek Danecki <jacek.danecki@intel.com>
-
-COPY download_deb_packages.sh /root
-
-RUN pacman -Sy --noconfirm wget binutils clinfo ; cd /root; ./download_deb_packages.sh; pacman -R --noconfirm binutils wget
-CMD ["/bin/bash"]

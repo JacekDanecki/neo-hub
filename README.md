@@ -8,17 +8,21 @@ This repository is used to create docker images containing Intel [compute-runtim
 
 OS | intel-opencl | intel-igc | intel-opencl-clang | gmmlib
 -- | ------------ | ----------| ------------------ | ------ |
-Ubuntu 19.04 | 19.40.14409-1\~ppa1\~disco2  | 1.0.2597-1\~ppa1\~disco1  | in IGC package | 19.3.2-1\~ppa1\~disco1  |
-Ubuntu 18.04 | 19.40.14409-1\~ppa1\~bionic1 | 1.0.2597-1\~ppa1\~bionic1 | in IGC package | 19.3.2-1\~ppa1\~bionic1 |
-Ubuntu 16.04 | 19.40.14409-1\~ppa1\~xenial1 | 1.0.2597-1\~ppa1\~xenial1 | in IGC package | 19.3.2-1\~ppa1\~xenial1 |
-Fedora 30    | 19.40.14409-1 | 1.0.2597-2 | 8.0.72-1 | 19.3.2-1 |
-Fedora 31    | 19.40.14409-1 | 1.0.2597-1 | 9.0.4-1  | 19.3.2-1 |
-Centos 7     | 19.40.14409-1 | 1.0.2597-1 | in igc   | 19.3.2-1 |
+Centos 7     | 19.41.14441-1 | 1.0.2597-1 | in igc   | 19.3.2-1 |
+Centos 8     | 19.41.14441-1 | 1.0.2597-2 | in igc   | 19.3.2-1 |
+Fedora 30    | 19.41.14441-1 | 1.0.2597-2 | 8.0.72-1 | 19.3.2-1 |
+Fedora 31    | 19.41.14441-1 | 1.0.2597-1 | 9.0.4-1  | 19.3.2-1 |
+Mageia 7     | 19.41.14441-1 | 1.0.2597-1 | 8.0.72-1 | 19.3.2-1 |
+OpenSUSE leap 15.1  | 19.41.14441-1 | 1.0.2597-1 | in igc   | 19.3.2-1 |
+OpenSUSE tumbleweed | 19.41.14441-1 | 1.0.2597-1 | 8.0.72-1 | 19.3.2-1 |
+Ubuntu 16.04 | 19.41.14441-1\~ppa1\~xenial1 | 1.0.2597-1\~ppa1\~xenial1 | in IGC package | 19.3.2-1\~ppa1\~xenial1 |
+Ubuntu 18.04 | 19.41.14441-1\~ppa1\~bionic1 | 1.0.2597-1\~ppa1\~bionic1 | in IGC package | 19.3.2-1\~ppa1\~bionic1 |
+Ubuntu 19.04 | 19.41.14441-1\~ppa1\~disco2  | 1.0.2597-1\~ppa1\~disco1  | in IGC package | 19.3.2-1\~ppa1\~disco1  |
 
 # Repositories used for builds
 
-* Fedora: [copr/\~jdanecki](https://copr.fedorainfracloud.org/coprs/jdanecki/intel-opencl)
-* Ubuntu: [launchpad/\~intel-opencl](https://launchpad.net/~intel-opencl/+archive/ubuntu/intel-opencl)
+* [copr/\~jdanecki](https://copr.fedorainfracloud.org/coprs/jdanecki/intel-opencl)
+* [launchpad/\~intel-opencl](https://launchpad.net/~intel-opencl/+archive/ubuntu/intel-opencl)
 
 # Obsoleted docker images
 
