@@ -8,16 +8,17 @@ This repository is used to create docker images containing Intel [compute-runtim
 
 OS | intel-opencl | intel-igc | intel-opencl-clang | gmmlib
 -- | ------------ | ----------| ------------------ | ------ |
-Centos 7     | 19.41.14441-1 | 1.0.2597-1 | in igc   | 19.3.2-1 |
-Centos 8     | 19.41.14441-1 | 1.0.2597-2 | in igc   | 19.3.2-1 |
-Fedora 30    | 19.41.14441-1 | 1.0.2597-2 | 8.0.72-1 | 19.3.2-1 |
-Fedora 31    | 19.41.14441-1 | 1.0.2597-1 | 9.0.4-1  | 19.3.2-1 |
-Mageia 7     | 19.41.14441-1 | 1.0.2597-1 | 8.0.72-1 | 19.3.2-1 |
-OpenSUSE leap 15.1  | 19.41.14441-1 | 1.0.2597-1 | in igc   | 19.3.2-1 |
-OpenSUSE tumbleweed | 19.41.14441-1 | 1.0.2597-1 | 8.0.72-1 | 19.3.2-1 |
-Ubuntu 16.04 | 19.41.14441-1\~ppa1\~xenial1 | 1.0.2597-1\~ppa1\~xenial1 | in IGC package | 19.3.2-1\~ppa1\~xenial1 |
-Ubuntu 18.04 | 19.41.14441-1\~ppa1\~bionic1 | 1.0.2597-1\~ppa1\~bionic1 | in IGC package | 19.3.2-1\~ppa1\~bionic1 |
-Ubuntu 19.04 | 19.41.14441-1\~ppa1\~disco2  | 1.0.2597-1\~ppa1\~disco1  | in IGC package | 19.3.2-1\~ppa1\~disco1  |
+Centos 7     | 19.43.14583-1 | 1.0.2714.1-1 | in igc   | 19.3.2-1 |
+Centos 8     | 19.43.14583-1 | 1.0.2714.1-2 | in igc   | 19.3.2-1 |
+Fedora 30    | 19.43.14583-1 | 1.0.2714.1-2 | in igc   | 19.3.2-1 |
+Fedora 31    | 19.43.14583-1 | 1.0.2714.1-1 | 9.0.9-1  | 19.3.2-1 |
+Mageia 7     | 19.43.14583-1 | 1.0.2714.1-1 | in igc   | 19.3.2-1 |
+OpenSUSE leap 15.1  | 19.43.14583-1 | 1.0.2714.1-1 | in igc   | 19.3.2-1 |
+OpenSUSE tumbleweed | 19.43.14583-1 | 1.0.2714.1-1 | in igc   | 19.3.2-1 |
+Ubuntu 16.04 | 19.43.14583-1\~ppa1\~xenial1 | 1.0.2714.1-1\~ppa1\~xenial1 | in IGC package | 19.3.2-1\~ppa1\~xenial1 |
+Ubuntu 18.04 | 19.43.14583-1\~ppa1\~bionic1 | 1.0.2714.1-1\~ppa1\~bionic1 | in IGC package | 19.3.2-1\~ppa1\~bionic1 |
+Ubuntu 19.04 | 19.43.14583-1\~ppa1\~disco1  | 1.0.2714.1-1\~ppa1\~disco1  | in IGC package | 19.3.2-1\~ppa1\~disco1  |
+Ubuntu 19.10 | 19.43.14583-1\~ppa1\~eoan1  | 1.0.2714.1-1\~ppa1\~eoan1    | in IGC package | 19.3.2-1\~ppa1\~eoan1   |
 
 # Repositories used for builds
 
