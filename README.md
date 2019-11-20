@@ -8,17 +8,17 @@ This repository is used to create docker images containing Intel [compute-runtim
 
 OS | intel-opencl | intel-igc | intel-opencl-clang | gmmlib
 -- | ------------ | ----------| ------------------ | ------ |
-Centos 7     | 19.44.14658-1 | 1.0.2714.1-1 | in igc   | 19.3.2-1 |
-Centos 8     | 19.44.14658-1 | 1.0.2714.1-2 | in igc   | 19.3.2-1 |
-Fedora 30    | 19.44.14658-1 | 1.0.2714.1-2 | in igc   | 19.3.2-1 |
-Fedora 31    | 19.44.14658-1 | 1.0.2714.1-1 | 9.0.9-1  | 19.3.2-1 |
-Mageia 7     | 19.44.14658-1 | 1.0.2714.1-1 | in igc   | 19.3.2-1 |
-OpenSUSE leap 15.1  | 19.44.14658-1 | 1.0.2714.1-1 | in igc   | 19.3.2-1 |
-OpenSUSE tumbleweed | 19.44.14658-1 | 1.0.2714.1-1 | in igc   | 19.3.2-1 |
-Ubuntu 16.04 | 19.44.14658-1\~ppa1\~xenial1 | 1.0.2714.1-1\~ppa1\~xenial1 | in IGC package | 19.3.2-1\~ppa1\~xenial1 |
-Ubuntu 18.04 | 19.44.14658-1\~ppa1\~bionic1 | 1.0.2714.1-1\~ppa1\~bionic1 | in IGC package | 19.3.2-1\~ppa1\~bionic1 |
-Ubuntu 19.04 | 19.44.14658-1\~ppa1\~disco1  | 1.0.2714.1-1\~ppa1\~disco1  | in IGC package | 19.3.2-1\~ppa1\~disco1  |
-Ubuntu 19.10 | 19.44.14658-1\~ppa1\~eoan1  | 1.0.2714.1-1\~ppa1\~eoan1    | in IGC package | 19.3.2-1\~ppa1\~eoan1   |
+Centos 7     | 19.45.14764-1 | 1.0.2805-1 | in IGC package | 19.3.4-1 |
+Centos 8     | 19.45.14764-1 | 1.0.2805-1 | in IGC package | 19.3.4-1 |
+Fedora 30    | 19.45.14764-1 | 1.0.2805-1 | in IGC package | 19.3.4-1 |
+Fedora 31    | 19.45.14764-1 | 1.0.2805-1 | 9.0.9-1        | 19.3.4-1 |
+Mageia 7     | 19.45.14764-1 | 1.0.2805-1 | in IGC package | 19.3.4-1 |
+OpenSUSE leap 15.1  | 19.45.14764-1 | 1.0.2805-1 | in IGC package | 19.3.4-1 |
+OpenSUSE tumbleweed | 19.45.14764-1 | 1.0.2805-1 | in IGC package | 19.3.4-1 |
+Ubuntu 16.04 | 19.45.14764-1\~ppa1\~xenial1 | 1.0.2805-1\~ppa1\~xenial1 | in IGC package | 19.3.4-1\~ppa1\~xenial1 |
+Ubuntu 18.04 | 19.45.14764-1\~ppa1\~bionic1 | 1.0.2805-1\~ppa1\~bionic1 | in IGC package | 19.3.4-1\~ppa1\~bionic1 |
+Ubuntu 19.04 | 19.45.14764-1\~ppa1\~disco1  | 1.0.2805-1\~ppa1\~disco1  | in IGC package | 19.3.4-1\~ppa1\~disco1  |
+Ubuntu 19.10 | 19.45.14764-1\~ppa1\~eoan1  | 1.0.2805-1\~ppa1\~eoan1    | in IGC package | 19.3.4-1\~ppa1\~eoan1   |
 
 # Repositories used for builds
 
