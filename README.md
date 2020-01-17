@@ -8,18 +8,18 @@ This repository is used to create docker images containing Intel [compute-runtim
 
 OS | intel-opencl | intel-igc | intel-opencl-clang | gmmlib
 -- | ------------ | ----------| ------------------ | ------ |
-Centos 7     | 20.01.15264-1 | 1.0.3041-1 | in IGC package | 19.4.1-1 |
-Centos 8     | 20.01.15264-1 | 1.0.3041-1 | in IGC package | 19.4.1-1 |
-Fedora 30    | 20.01.15264-1 | 1.0.3041-1 | in IGC package | 19.4.1-1 |
-Fedora 31    | 20.01.15264-1 | 1.0.3041-1 | 9.0.9-1        | 19.4.1-1 |
-Mageia 7     | 20.01.15264-1 | 1.0.3041-1 | in IGC package | 19.4.1-1 |
-OpenSUSE leap 15.1  | 20.01.15264-1 | 1.0.3041-1 | in IGC package | 19.4.1-1 |
-OpenSUSE tumbleweed | 20.01.15264-1 | 1.0.3041-1 | in IGC package | 19.4.1-1 |
-Ubuntu 16.04 | 20.01.15264-1\~ppa1\~xenial1 | 1.0.3041-1\~ppa1\~xenial1 | in IGC package | 19.4.1-1\~ppa1\~xenial1 |
-Ubuntu 18.04 | 20.01.15264-1\~ppa1\~bionic1 | 1.0.3041-1\~ppa1\~bionic1 | in IGC package | 19.4.1-1\~ppa1\~bionic1 |
-Ubuntu 19.04 | 20.01.15264-1\~ppa1\~disco1  | 1.0.3041-1\~ppa1\~disco1  | in IGC package | 19.4.1-1\~ppa1\~disco1  |
-Ubuntu 19.10 | 20.01.15264-1\~ppa1\~eoan1  | 1.0.3041-1\~ppa1\~eoan1    | in IGC package | 19.4.1-1\~ppa1\~eoan1   |
-Ubuntu 20.04 | 20.01.15264-1\~ppa1\~eoan1  | 1.0.3041-1\~ppa1\~eoan1    | in IGC package | 19.4.1-1\~ppa1\~eoan1   |
+Centos 7     | 20.02.15268-1 | 1.0.3041-1 | in IGC package | 19.4.1-1 |
+Centos 8     | 20.02.15268-1 | 1.0.3041-1 | in IGC package | 19.4.1-1 |
+Fedora 30    | 20.02.15268-1 | 1.0.3041-1 | in IGC package | 19.4.1-1 |
+Fedora 31    | 20.02.15268-1 | 1.0.3041-1 | 9.0.9-1        | 19.4.1-1 |
+Mageia 7     | 20.02.15268-1 | 1.0.3041-1 | in IGC package | 19.4.1-1 |
+OpenSUSE leap 15.1  | 20.02.15268-1 | 1.0.3041-1 | in IGC package | 19.4.1-1 |
+OpenSUSE tumbleweed | 20.02.15268-1 | 1.0.3041-1 | in IGC package | 19.4.1-1 |
+Ubuntu 16.04 | 20.02.15268-1\~ppa1\~xenial1 | 1.0.3041-1\~ppa1\~xenial1 | in IGC package | 19.4.1-1\~ppa1\~xenial1 |
+Ubuntu 18.04 | 20.02.15268-1\~ppa1\~bionic1 | 1.0.3041-1\~ppa1\~bionic1 | in IGC package | 19.4.1-1\~ppa1\~bionic1 |
+Ubuntu 19.04 | 20.02.15268-1\~ppa1\~disco1  | 1.0.3041-1\~ppa1\~disco1  | in IGC package | 19.4.1-1\~ppa1\~disco1  |
+Ubuntu 19.10 | 20.02.15268-1\~ppa1\~eoan1  | 1.0.3041-1\~ppa1\~eoan1    | in IGC package | 19.4.1-1\~ppa1\~eoan1   |
+Ubuntu 20.04 | 20.02.15268-1\~ppa1\~eoan1  | 1.0.3041-1\~ppa1\~eoan1    | in IGC package | 19.4.1-1\~ppa1\~eoan1   |
 
 # Repositories used for builds
 
