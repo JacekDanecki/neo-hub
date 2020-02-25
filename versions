@@ -6,6 +6,7 @@ show_versions() {
     echo "ubuntu-20.04-ppa"
     echo "fedora-30-copr"
     echo "fedora-31-copr"
+    echo "fedora-32-copr"
     echo "centos-7-copr"
     echo "centos-8-copr"
     echo "mageia-7-copr"
