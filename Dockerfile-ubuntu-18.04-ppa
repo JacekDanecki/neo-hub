@@ -6,5 +6,7 @@ RUN apt-get -y update ; apt-get install -y --allow-unauthenticated gpg; \
     apt-key adv --keyserver keyserver.ubuntu.com \
     --recv-keys B9732172C4830B8F; \
     apt-get -y update ; apt-get install -y --allow-unauthenticated intel-opencl-icd clinfo; \
+    apt-get remove -y gpg; \
+    apt-get autoremove -y; \
     rm -rf /var/lib/apt/lists/*
 CMD ["/bin/bash"]
