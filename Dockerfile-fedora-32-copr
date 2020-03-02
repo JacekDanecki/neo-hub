@@ -1,5 +1,5 @@
 FROM fedora:32
-MAINTAINER Jacek Danecki <jacek.danecki@intel.com>
+LABEL maintainer="jacek.danecki@intel.com"
 
 RUN dnf install -y 'dnf-command(copr)' && \
     dnf copr enable -y jdanecki/intel-opencl && \

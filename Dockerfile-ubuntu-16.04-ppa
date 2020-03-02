@@ -1,5 +1,5 @@
 FROM docker.io/ubuntu:16.04
-MAINTAINER Jacek Danecki <jacek.danecki@intel.com>
+LABEL maintainer="jacek.danecki@intel.com"
 
 RUN echo "deb http://ppa.launchpad.net/intel-opencl/intel-opencl/ubuntu xenial main" >> /etc/apt/sources.list; \
     apt-key adv --keyserver keyserver.ubuntu.com --recv-keys B9732172C4830B8F; \

@@ -1,5 +1,5 @@
 FROM centos:7
-MAINTAINER Jacek Danecki <jacek.danecki@intel.com>
+LABEL maintainer="jacek.danecki@intel.com"
 
 RUN yum install -y 'yum-plugin-copr' && \
     yum install -y epel-release  && \

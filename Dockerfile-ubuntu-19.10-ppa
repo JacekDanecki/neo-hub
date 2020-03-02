@@ -1,5 +1,5 @@
 FROM docker.io/ubuntu:19.10
-MAINTAINER Jacek Danecki <jacek.danecki@intel.com>
+LABEL maintainer="jacek.danecki@intel.com"
 
 RUN apt-get -y update ; apt-get install -y --allow-unauthenticated gpg; \
     echo "deb http://ppa.launchpad.net/intel-opencl/intel-opencl/ubuntu bionic main" >> /etc/apt/sources.list; \
