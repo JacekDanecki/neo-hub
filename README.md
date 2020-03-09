@@ -8,19 +8,19 @@ This repository is used to create docker images containing Intel [compute-runtim
 
 OS | intel-opencl | intel-igc | intel-opencl-clang | gmmlib
 -- | ------------ | ----------| ------------------ | ------ |
-Centos 7     | 20.07.15711-1 | 1.0.3342-1 | in IGC package | 19.4.1-1 |
-Centos 8     | 20.07.15711-1 | 1.0.3342-1 | in IGC package | 19.4.1-1 |
-Fedora 30    | 20.07.15711-1 | 1.0.3342-1 | in IGC package | 19.4.1-1 |
-Fedora 31    | 20.07.15711-1 | 1.0.3342-1 | 9.0.9-1        | 19.4.1-1 |
-Fedora 32    | 20.05.15524-1 | 1.0.3151-1 | 9.0.9-1        | 19.4.1-1 |
-Mageia 7     | 20.07.15711-1 | 1.0.3342-1 | in IGC package | 19.4.1-1 |
-OpenSUSE leap 15.1  | 20.07.15711-1 | 1.0.3342-1 | in IGC package | 19.4.1-1 |
-OpenSUSE tumbleweed | 20.07.15711-1 | 1.0.3342-1 | in IGC package | 19.4.1-1 |
-Ubuntu 16.04 | 20.07.15711-1\~ppa1\~xenial1 | 1.0.3342-1\~ppa1\~xenial1 | in IGC package | 19.4.1-1\~ppa1\~xenial1 |
-Ubuntu 18.04 | 20.07.15711-1\~ppa1\~bionic1 | 1.0.3342-1\~ppa1\~bionic1 | in IGC package | 19.4.1-1\~ppa1\~bionic1 |
-Ubuntu 19.04 | 20.07.15711-1\~ppa1\~disco1  | 1.0.3342-1\~ppa1\~disco1  | in IGC package | 19.4.1-1\~ppa1\~disco1  |
-Ubuntu 19.10 | 20.07.15711-1\~ppa1\~eoan1   | 1.0.3342-1\~ppa1\~eoan1   | in IGC package | 19.4.1-1\~ppa1\~eoan1   |
-Ubuntu 20.04 | 20.07.15711-1\~ppa1\~focal1  | 1.0.3342-1\~ppa1\~focal1  | in IGC package | 19.4.1+ds1-1            |
+Centos 7     | 20.09.15980-2 | 1.0.3445-1 | in IGC package | 19.4.1-1 |
+Centos 8     | 20.09.15980-2 | 1.0.3445-1 | in IGC package | 19.4.1-1 |
+Fedora 30    | 20.09.15980-2 | 1.0.3445-1 | in IGC package | 19.4.1-1 |
+Fedora 31    | 20.09.15980-3 | 1.0.3445-1 | 9.0.13-1       | 19.4.1-1 |
+Fedora 32    | 20.05.15524-3 | 1.0.3151-1 | 10.0.4-1       | 19.4.1-1 |
+Mageia 7     | 20.09.15980-2 | 1.0.3445-1 | in IGC package | 19.4.1-1 |
+OpenSUSE leap 15.1  | 20.09.15980-2 | 1.0.3445-1 | in IGC package | 19.4.1-1 |
+OpenSUSE tumbleweed | 20.09.15980-2 | 1.0.3445-1 | in IGC package | 19.4.1-1 |
+Ubuntu 16.04 | 20.09.15980-1\~ppa1\~xenial1 | 1.0.3445-1\~ppa1\~xenial1 | in IGC package | 19.4.1-1\~ppa1\~xenial1 |
+Ubuntu 18.04 | 20.09.15980-1\~ppa1\~bionic1 | 1.0.3445-1\~ppa1\~bionic1 | in IGC package | 19.4.1-1\~ppa1\~bionic1 |
+Ubuntu 19.04 | 20.09.15980-1\~ppa1\~disco1  | 1.0.3445-1\~ppa1\~disco1  | in IGC package | 19.4.1-1\~ppa1\~disco1  |
+Ubuntu 19.10 | 20.09.15980-1\~ppa1\~eoan1   | 1.0.3445-1\~ppa1\~eoan1   | in IGC package | 19.4.1-1\~ppa1\~eoan1   |
+Ubuntu 20.04 | 20.09.15980-1\~ppa1\~focal1  | 1.0.3445-1\~ppa1\~focal1  | in IGC package | 19.4.1+ds1-1            |
 
 # Repositories used for builds
 
