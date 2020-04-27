@@ -8,17 +8,17 @@ This repository is used to create docker images containing Intel [compute-runtim
 
 OS | intel-opencl | intel-igc | intel-opencl-clang | gmmlib
 -- | ------------ | ----------| ------------------ | ------ |
-Centos 7     | 20.15.16524-1 | 1.0.3771-1 | in IGC package | 20.1.1-1 |
-Centos 8     | 20.15.16524-1 | 1.0.3771-1 | in IGC package | 20.1.1-1 |
-Fedora 30    | 20.15.16524-1 | 1.0.3771-1 | in IGC package | 20.1.1-1 |
-Fedora 31    | 20.15.16524-1 | 1.0.3771-1 | 9.0.17-1       | 20.1.1-1 |
-Fedora 32    | 20.15.16524-1 | 1.0.3771-1 | 10.0.6-1       | 20.1.1-1 |
-Mageia 7     | 20.15.16524-1 | 1.0.3771-1 | in IGC package | 20.1.1-1 |
-OpenSUSE leap 15.1  | 20.15.16524-1 | 1.0.3771-1 | in IGC package | 20.1.1-1 |
-OpenSUSE tumbleweed | 20.15.16524-1 | 1.0.3771-1 | in IGC package | 20.1.1-1 |
-Ubuntu 18.04 | 20.15.16524-1\~ppa1\~bionic1 | 1.0.3771-1\~ppa1\~bionic1 | in IGC package | 20.1.1-1\~ppa2\~bionic1 |
-Ubuntu 19.10 | 20.15.16524-1\~ppa1\~eoan1   | 1.0.3771-1\~ppa1\~eoan1   | in IGC package | 20.1.1-1\~ppa2\~eoan1   |
-Ubuntu 20.04 | 20.15.16524-1\~ppa1\~focal1  | 1.0.3771-1\~ppa1\~focal1  | in IGC package | 20.1.1+ds1-1            |
+Centos 7     | 20.16.16582-1 | 1.0.3826-1 | in IGC package | 20.1.1-1 |
+Centos 8     | 20.16.16582-1 | 1.0.3826-1 | in IGC package | 20.1.1-1 |
+Fedora 30    | 20.16.16582-1 | 1.0.3826-1 | in IGC package | 20.1.1-1 |
+Fedora 31    | 20.16.16582-1 | 1.0.3826-1 | 9.0.17-1       | 20.1.1-1 |
+Fedora 32    | 20.16.16582-1 | 1.0.3826-1 | 10.0.6-1       | 20.1.1-1 |
+Mageia 7     | 20.16.16582-1 | 1.0.3826-1 | in IGC package | 20.1.1-1 |
+OpenSUSE leap 15.1  | 20.16.16582-1 | 1.0.3826-1 | in IGC package | 20.1.1-1 |
+OpenSUSE tumbleweed | 20.16.16582-1 | 1.0.3826-1 | in IGC package | 20.1.1-1 |
+Ubuntu 18.04 | 20.16.16582-1\~ppa1\~bionic1 | 1.0.3826-1\~ppa1\~bionic1 | in IGC package | 20.1.1-1\~ppa2\~bionic1 |
+Ubuntu 19.10 | 20.16.16582-1\~ppa1\~eoan1   | 1.0.3826-1\~ppa1\~eoan1   | in IGC package | 20.1.1-1\~ppa2\~eoan1   |
+Ubuntu 20.04 | 20.16.16582-1\~ppa1\~focal1  | 1.0.3826-1\~ppa1\~focal1  | in IGC package | 20.1.1+ds1-1            |
 
 # Repositories used for builds
 
