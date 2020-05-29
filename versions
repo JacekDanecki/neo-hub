@@ -8,5 +8,6 @@ show_versions() {
     echo "centos-8-copr"
     echo "mageia-7-copr"
     echo "opensuse-15.1-copr"
+    echo "opensuse-15.2-copr"
     echo "opensuse-tumbleweed-copr"
 }
