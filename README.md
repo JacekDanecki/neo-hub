@@ -8,17 +8,17 @@ This repository is used to create docker images containing Intel [compute-runtim
 
 OS | intel-opencl | intel-igc | intel-opencl-clang | gmmlib
 -- | ------------ | ----------| ------------------ | ------ |
-Centos 7     | 20.19.16754-1 | 1.0.3951-1 | in IGC package | 20.1.1-1 |
-Centos 8     | 20.19.16754-1 | 1.0.3951-1 | in IGC package | 20.1.1-1 |
-Fedora 30    | 20.19.16754-1 | 1.0.3951-1 | in IGC package | 20.1.1-1 |
-Fedora 31    | 20.19.16754-1 | 1.0.3951-1 | 9.0.17-1       | 20.1.1-1 |
-Fedora 32    | 20.19.16754-1 | 1.0.3951-1 | 10.0.6-1       | 20.1.1-1 |
-Mageia 7     | 20.19.16754-1 | 1.0.3951-1 | in IGC package | 20.1.1-1 |
-OpenSUSE leap 15.1  | 20.19.16754-1 | 1.0.3951-1 | in IGC package | 20.1.1-1 |
-OpenSUSE tumbleweed | 20.19.16754-1 | 1.0.3951-1 | in IGC package | 20.1.1-1 |
-Ubuntu 18.04 | 20.19.16754-1\~ppa1\~bionic1 | 1.0.3951-1\~ppa1\~bionic1 | in IGC package | 20.1.1-1\~ppa2\~bionic1 |
-Ubuntu 19.10 | 20.19.16754-1\~ppa1\~eoan1   | 1.0.3951-1\~ppa1\~eoan1   | in IGC package | 20.1.1-1\~ppa2\~eoan1   |
-Ubuntu 20.04 | 20.19.16754-1\~ppa1\~focal1  | 1.0.3951-1\~ppa1\~focal1  | in IGC package | 20.1.1+ds1-1            |
+Centos 7     | 20.21.16886-1 | 1.0.4053-1 | in IGC package | 20.1.1-1 |
+Centos 8     | 20.21.16886-1 | 1.0.4053-1 | in IGC package | 20.1.1-1 |
+Fedora 31    | 20.21.16886-1 | 1.0.4053-1 | 9.0.17-1       | 20.1.1-1 |
+Fedora 32    | 20.21.16886-1 | 1.0.4053-1 | 10.0.6-1       | 20.1.1-1 |
+Mageia 7     | 20.21.16886-1 | 1.0.4053-1 | in IGC package | 20.1.1-1 |
+OpenSUSE leap 15.1  | 20.21.16886-1 | 1.0.4053-1 | in IGC package | 20.1.1-1 |
+OpenSUSE leap 15.2  | 20.21.16886-1 | 1.0.4053-1 | in IGC package | 20.1.1-1 |
+OpenSUSE tumbleweed | 20.21.16886-1 | 1.0.4053-1 | in IGC package | 20.1.1-1 |
+Ubuntu 18.04 | 20.21.16886-1\~ppa1\~bionic1 | 1.0.4053-1\~ppa1\~bionic1 | in IGC package | 20.1.1-1\~ppa2\~bionic1 |
+Ubuntu 19.10 | 20.21.16886-1\~ppa1\~eoan1   | 1.0.4053-1\~ppa1\~eoan1   | in IGC package | 20.1.1-1\~ppa2\~eoan1   |
+Ubuntu 20.04 | 20.21.16886-1\~ppa1\~focal1  | 1.0.4053-1\~ppa1\~focal1  | in IGC package | 20.1.1+ds1-1            |
 
 # Repositories used for builds
 
@@ -29,6 +29,7 @@ Ubuntu 20.04 | 20.19.16754-1\~ppa1\~focal1  | 1.0.3951-1\~ppa1\~focal1  | in IGC
 
 OS | intel-opencl | intel-igc | intel-opencl-clang | gmmlib
 -- | ------------ | ----------| ------------------ | ------ |
+Fedora 30    | 20.19.16754-1 | 1.0.3951-1 | in IGC package | 20.1.1-1 |
 Ubuntu 19.04 | 20.11.16158-1\~ppa1\~disco1  | 1.0.3529-1\~ppa1\~disco1  | in IGC package | 19.4.1-1\~ppa1\~disco1  |
 Ubuntu 16.04 | 20.11.16158-1\~ppa1\~xenial1 | 1.0.3529-1\~ppa1\~xenial1 | in IGC package | 19.4.1-1\~ppa1\~xenial1 |
 Fedora 29 | 18.45.11804-3 | 18.44.1060-3 | 4.0.16-1 | 18.4.348-3 |
