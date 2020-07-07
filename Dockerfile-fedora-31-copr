@@ -3,5 +3,5 @@ LABEL maintainer="jacek.danecki@intel.com"
 
 RUN dnf install -y 'dnf-command(copr)' && \
     dnf copr enable -y jdanecki/intel-opencl && \
-    dnf install -y intel-opencl clinfo clpeak intel-level-zero-gpu --setopt=install_weak_deps=False && dnf clean all
+    dnf install -y intel-opencl clinfo clpeak intel-level-zero-gpu level-zero --setopt=install_weak_deps=False && dnf clean all
 CMD ["/bin/bash"]

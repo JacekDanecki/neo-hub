@@ -2,5 +2,5 @@ FROM opensuse/leap:15.1
 LABEL maintainer="jacek.danecki@intel.com"
 
 RUN zypper addrepo -r https://copr.fedorainfracloud.org/coprs/jdanecki/intel-opencl/repo/opensuse-leap-15.1/jdanecki-intel-opencl-opensuse-leap-15.1.repo && \
-    zypper --no-gpg-checks  install -y  intel-opencl clinfo clpeak intel-level-zero-gpu
+    zypper --no-gpg-checks  install -y  intel-opencl clinfo clpeak intel-level-zero-gpu level-zero
 CMD ["/bin/bash"]

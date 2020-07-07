@@ -6,19 +6,19 @@ This repository is used to create docker images containing Intel [compute-runtim
 
 # Packages used to build docker images
 
-OS | intel-opencl | intel-igc | intel-opencl-clang | gmmlib
--- | ------------ | ----------| ------------------ | ------ |
-Centos 7     | 20.25.17111-1 | 1.0.4155-1 | in IGC package | 20.1.1-1 |
-Centos 8     | 20.25.17111-1 | 1.0.4155-1 | in IGC package | 20.1.1-1 |
-Fedora 31    | 20.25.17111-1 | 1.0.4155-1 | 9.0.17-1       | 20.1.1-1 |
-Fedora 32    | 20.25.17111-1 | 1.0.4155-1 | 10.0.12-1      | 20.1.1-1 |
-Mageia 7     | 20.25.17111-1 | 1.0.4155-1 | in IGC package | 20.1.1-1 |
-OpenSUSE leap 15.1  | 20.25.17111-1 | 1.0.4155-1 | in IGC package | 20.1.1-1 |
-OpenSUSE leap 15.2  | 20.25.17111-1 | 1.0.4155-1 | in IGC package | 20.1.1-1 |
-OpenSUSE tumbleweed | 20.25.17111-1 | 1.0.4155-1 | in IGC package | 20.1.1-1 |
-Ubuntu 18.04 | 20.25.17111-1\~ppa1\~bionic1 | 1.0.4155-1\~ppa1\~bionic1 | in IGC package | 20.1.1-1\~ppa2\~bionic1 |
-Ubuntu 19.10 | 20.25.17111-1\~ppa1\~eoan1   | 1.0.4155-1\~ppa1\~eoan1   | in IGC package | 20.1.1-1\~ppa2\~eoan1   |
-Ubuntu 20.04 | 20.25.17111-1\~ppa1\~focal1  | 1.0.4155-1\~ppa1\~focal1  | in IGC package | 20.1.1+ds1-1            |
+OS | intel-opencl | intel-igc | intel-opencl-clang | gmmlib | level-zero
+-- | ------------ | ----------| ------------------ | ------ | ---------- |
+Centos 7     | 20.25.17111-1 | 1.0.4155-1 | in IGC package | 20.1.1-1 | 0.91.10 |
+Centos 8     | 20.25.17111-1 | 1.0.4155-1 | in IGC package | 20.1.1-1 | 0.91.10 |
+Fedora 31    | 20.25.17111-1 | 1.0.4155-1 | 9.0.17-1       | 20.1.1-1 | 0.91.10 |
+Fedora 32    | 20.25.17111-1 | 1.0.4155-1 | 10.0.12-1      | 20.1.1-1 | 0.91.10 |
+Mageia 7     | 20.25.17111-1 | 1.0.4155-1 | in IGC package | 20.1.1-1 | 0.91.10 |
+OpenSUSE leap 15.1  | 20.25.17111-1 | 1.0.4155-1 | in IGC package | 20.1.1-1 | 0.91.10 |
+OpenSUSE leap 15.2  | 20.25.17111-1 | 1.0.4155-1 | in IGC package | 20.1.1-1 | 0.91.10 |
+OpenSUSE tumbleweed | 20.25.17111-1 | 1.0.4155-1 | in IGC package | 20.1.1-1 | 0.91.10 |
+Ubuntu 18.04 | 20.25.17111-1\~ppa1\~bionic1 | 1.0.4155-1\~ppa1\~bionic1 | in IGC package | 20.1.1-1\~ppa2\~bionic1 | 0.91.10 |
+Ubuntu 19.10 | 20.25.17111-1\~ppa1\~eoan1   | 1.0.4155-1\~ppa1\~eoan1   | in IGC package | 20.1.1-1\~ppa2\~eoan1   | 0.91.10 |
+Ubuntu 20.04 | 20.25.17111-1\~ppa1\~focal1  | 1.0.4155-1\~ppa1\~focal1  | in IGC package | 20.1.1+ds1-1            | 0.91.10 |
 
 # Repositories used for builds
 
