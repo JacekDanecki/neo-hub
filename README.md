@@ -6,19 +6,17 @@ This repository is used to create docker images containing Intel [compute-runtim
 
 # Packages used to build docker images
 
-OS | intel-opencl | intel-igc | intel-opencl-clang | gmmlib | level-zero
--- | ------------ | ----------| ------------------ | ------ | ---------- |
-Centos 7     | 20.25.17111-1 | 1.0.4155-1 | in IGC package | 20.1.1-1 | 0.91.10 |
-Centos 8     | 20.25.17111-1 | 1.0.4155-1 | in IGC package | 20.1.1-1 | 0.91.10 |
-Fedora 31    | 20.25.17111-1 | 1.0.4155-1 | 9.0.17-1       | 20.1.1-1 | 0.91.10 |
-Fedora 32    | 20.25.17111-1 | 1.0.4155-1 | 10.0.12-1      | 20.1.1-1 | 0.91.10 |
-Mageia 7     | 20.25.17111-1 | 1.0.4155-1 | in IGC package | 20.1.1-1 | 0.91.10 |
-OpenSUSE leap 15.1  | 20.25.17111-1 | 1.0.4155-1 | in IGC package | 20.1.1-1 | 0.91.10 |
-OpenSUSE leap 15.2  | 20.25.17111-1 | 1.0.4155-1 | in IGC package | 20.1.1-1 | 0.91.10 |
-OpenSUSE tumbleweed | 20.25.17111-1 | 1.0.4155-1 | in IGC package | 20.1.1-1 | 0.91.10 |
-Ubuntu 18.04 | 20.25.17111-1\~ppa1\~bionic1 | 1.0.4155-1\~ppa1\~bionic1 | in IGC package | 20.1.1-1\~ppa2\~bionic1 | 0.91.10 |
-Ubuntu 19.10 | 20.25.17111-1\~ppa1\~eoan1   | 1.0.4155-1\~ppa1\~eoan1   | in IGC package | 20.1.1-1\~ppa2\~eoan1   | 0.91.10 |
-Ubuntu 20.04 | 20.25.17111-1\~ppa1\~focal1  | 1.0.4155-1\~ppa1\~focal1  | in IGC package | 20.1.1+ds1-1            | 0.91.10 |
+* intel-opencl - 20.26.17199
+* intel-igc - 1.0.4241
+* intel-opencl-clang - 10.0.12
+* spirv-llvm-translator - 10.0.12
+* gmmlib - 20.2.2
+* level-zero - 0.91.10
+
+# Differences between Linux distributions
+
+* IGC and opencl-clang (9.0.17) in Fedora 31 were compiled with system llvm/clang ver. 9
+* IGC and it's components in Fedora 32 were compiled with system llvm/clang ver. 10, on other systems they were compiled with llvm/clang sources.
 
 # Repositories used for builds
 
