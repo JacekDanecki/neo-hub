@@ -6,7 +6,7 @@ This repository is used to create docker images containing Intel [compute-runtim
 
 # Packages used to build docker images
 
-* intel-opencl - 20.26.17199
+* intel-opencl - 20.27.17231
 * intel-igc - 1.0.4241
 * intel-opencl-clang - 10.0.12
 * spirv-llvm-translator - 10.0.12
