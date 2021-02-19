@@ -1,8 +1,7 @@
 show_versions() {
     echo "ubuntu-18.04-ppa"
-    echo "ubuntu-19.10-ppa"
     echo "ubuntu-20.04-ppa"
-    echo "fedora-31-copr"
+    echo "fedora-33-copr"
     echo "fedora-32-copr"
     echo "centos-7-copr"
     echo "centos-8-copr"

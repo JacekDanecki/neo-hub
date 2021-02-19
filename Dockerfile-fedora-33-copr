@@ -1,4 +1,4 @@
-FROM fedora:31
+FROM fedora:33
 LABEL maintainer="jacek.danecki@intel.com"
 
 RUN dnf install -y 'dnf-command(copr)' && \
