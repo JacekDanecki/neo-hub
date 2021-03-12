@@ -1,12 +1,15 @@
 show_versions() {
     echo "ubuntu-18.04-ppa"
     echo "ubuntu-20.04-ppa"
-    echo "fedora-33-copr"
+    echo "ubuntu-20.10-ppa"
     echo "fedora-32-copr"
+    echo "fedora-33-copr"
+    echo "fedora-34-copr"
     echo "centos-7-copr"
     echo "centos-8-copr"
     echo "mageia-7-copr"
-    echo "opensuse-15.1-copr"
+    echo "mageia-8-copr"
+    echo "mageia-cauldron-copr"
     echo "opensuse-15.2-copr"
     echo "opensuse-tumbleweed-copr"
 }
