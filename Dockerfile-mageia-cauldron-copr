@@ -2,6 +2,6 @@ FROM mageia:cauldron
 LABEL maintainer="jacek.danecki@intel.com"
 
 RUN dnf install -y 'dnf-command(copr)' && \
-    dnf copr enable -y jdanecki/intel-opencl && \
+    dnf copr enable -y jdanecki/intel-opencl mageia-cauldron-x86_64 && \
     dnf install -y intel-opencl clinfo intel-level-zero-gpu level-zero --setopt=install_weak_deps=False && dnf clean all
 CMD ["/bin/bash"]
