@@ -1,3 +1,5 @@
+I'll not work on this project anymore.
+
 This repository is used to create docker images containing Intel [compute-runtime](https://github.com/intel/compute-runtime)
 
 ## Docker hub repository info
